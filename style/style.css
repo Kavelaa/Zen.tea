@@ -3,9 +3,9 @@ html{
 }
 
 body{
-    width:100%;
+    font-size:16px;    width:100%;
     height:100%; margin:0 auto;
-    background:linear-gradient(#6495ED,#87CEFA);
+    background:#40E0D0;
 }
 
 .page{
@@ -14,40 +14,44 @@ body{
 }
 
 .bottom{
-    color:white;
-    padding:15px 0;     
-    letter-spacing:1px;
+    display:inline-block;       color:white;
+   width:auto;  padding:20px;  text-align:center;  background-color:#102026;  
+  letter-spacing:1px;
 }
 
 .bottom2{
-    color:white;   
-    padding-top:15px;   
+  color:white;   
+background-color:green;    padding:20px;   
     letter-spacing:1px;
 }
 
 h1{
-    color:white;
-    font-size:50px;
+    color:#40E0D0;
+  background-color:white;  font-size:40px;
     font-family: 'Poiret One', cursive;
-    text-align: center;
-   margin:0;    padding:80px 0 80px 0;
+   margin:0;   padding:30px 0 30px 40px;
 }
 
-p{
-    text-align:center;
-    color:white;
-    letter-spacing: 2px;
+p{ color:white;
+  margin-left:40px;  letter-spacing: 1px;
 }  
-footer{
-    padding:20px 20px 20px;     
-    height:100px;   
-    border-top:5px solid #228B22;         
-    background-color:#8B4513;
-}    
 
-a{
-    color:#4B0082;    
-    text-decoration:none; 
+footer{
+    height:100%;   
+    padding:30px 0 0 0;
+}   
+
+input{
+    height:2rem;    
+    width:12rem;  
+    background-color:#A0522D;   
+    border:none;  
+    color:white;
+}       
+
+button{
+    border-radius:6px; height:2rem; width:70px;   margin-left:6px;   background-color:#8B4513;    border:none; color:white;}    a{
+    color:#4B0082;   text-decoration:none; 
 }       
 
 a:hover{
@@ -55,5 +59,5 @@ a:hover{
 }
 
 footer div a{
-    color:#3cb371;
-} 
+    color:white;
+}
