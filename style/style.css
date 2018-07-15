@@ -48,7 +48,11 @@ input{
     background-color:#A0522D;   
     border:none;  
     color:white;
-}       
+}
+
+input:-moz-placeholder{
+    color:white;
+}
 
 button{
     border-radius:6px; height:2rem; width:70px;   margin-left:6px;   background-color:#8B4513;    border:none; color:white;}    a{
