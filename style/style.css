@@ -5,64 +5,64 @@ html{
 body{
     font-size:16px;   font-family: Arial, Helvetica, sans-serif; 
     width:100%;
+    color:white;
     height:100%; margin:0 auto;
-    background:linear-gradient(to right bottom,#40E0D0 20%,rgb(30, 144, 255));
+    background-color:rgb(156, 239, 245);
 }
 
 .page{
-    padding-bottom:600px; 
+    color:rgb(50, 182, 32);
+    padding-bottom:800px; 
     height:100%;
 }
 
 .bottom{
-    display:inline-block;       color:white;
-    width:auto;  padding:20px;  text-align:center;  background-color:#102026;  
+    float:right;       color:white;
+    width:auto;  padding:20px;  text-align:center;  background-color:rgba(16, 32, 38, 0.6);  
     letter-spacing:1px;
 }
 
 .bottom2{
-    background-color: rgb(0, 0, 0);
+    float:right;
+    background-color: rgba(0, 0, 0, 0.6);
     color:white;
-    margin: 0;
+    margin:0;
     padding:20px;
-    display:inline-block;
 }
 
 .bottom3{
-    color:white;   
-    padding:20px 0 0 20px;   
+    color:rgb(50,182,32);
+    padding:50px 0 0 6%;
     letter-spacing:1px;
 }
 
 h1{
-    color:#1E90FF;
-    background:linear-gradient(to bottom,rgba(64, 224, 208,0.5),rgba(30,144,255,0.25));
-    font-size:50px;
-    font-family:'Poiret One', cursive;
+    background:linear-gradient(to top,rgba(91,6,189,0),rgba(255, 255, 255,0.6)60%);
+    color:rgb(50, 182, 32);
+    font-size:60px;
+    font-family:'Maven Pro', cursive;
+    font-weight: 300;
     margin:0;   padding:6px 40px;
+    cursor: default;
 }
 
 h2{
-    color:white;
-    margin:0 0 0 40px;
+    margin:40px 0;
+    font-family: 'Maven Pro','SimHei', cursive;
+    text-align: center;
 }
+
 p{  
-    color:white;
     margin-left:41px;  
-    letter-spacing: 1px;
+    letter-spacing:1px;
     font-size:1rem;
 }  
 
-dt{
-    margin-top:40px;
-    margin-left: 40px;
-    font-size:2rem;
+h2 + p{
+    margin:0;
+    font-size:1rem;
     letter-spacing: 1px;
-    color:white;
-}
-
-dd{
-    color:white;
+    text-align: center;
 }
 
 header{
@@ -72,27 +72,37 @@ header{
 
 footer{
     height:100%;   
-    padding:30px 0;
-    background-color:rgb(15, 66, 207);
+    padding:150px 0 30px;
+    background-image:url(../images/drizzle-footer.png);
+    background-size:100% 100%;
     position:relative;
 }   
 
 input{
     height:2rem;    
     width:12rem;  
-    background-color:#A0522D;   
-    border:none;  
-    color:white;
+    background-color:transparent;   
+    border:1px solid rgb(50,182,32);
+    color:rgb(50,182,32);
+    box-shadow: none;
 }
 
-input::-moz-placeholder{
+input::placeholder{
     color:white;
 }
 
 button{
-    border-radius:6px; height:2rem; width:70px;   margin-left:6px;   background-color:#8B4513;    border:none; color:white;}    a{
-    color:white;   text-decoration:none; 
+    border-radius:0px; height:2rem; width:70px;   
+    margin-left:6px;
+    background-color:transparent;    
+    border:1px solid rgb(50,182,32); 
+    color:rgb(50,182,32);
+    cursor: pointer;
 }       
+
+a{
+    text-decoration: none;
+}
 
 a:hover{
     text-decoration:underline;
